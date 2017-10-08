@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb1c6baf-94a0-4377-b618-9c05f57d651c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/distelli-manifest.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.go" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/glide.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/glide.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/glide.yaml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,34 +23,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <element signature="e#14#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distelli-manifest.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distelli-manifest.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -72,8 +77,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/distelli-manifest.yml" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -592,12 +598,12 @@
       <option name="presentableId" value="Default" />
       <updated>1507397162948</updated>
       <workItem from="1507397169516" duration="1636000" />
-      <workItem from="1507441043168" duration="1334000" />
+      <workItem from="1507441043168" duration="2066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2970000" />
+    <option name="totallyTimeSpent" value="3702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -648,27 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,6 +663,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distelli-manifest.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
