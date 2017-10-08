@@ -1,1 +1,1 @@
-"web: ChitChat"
+"web: main"
