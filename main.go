@@ -21,7 +21,7 @@ func main() {
 	}
 
 	server := http.Server{
-		Addr: ":" + "3001",
+		Addr: ":" + port,
 	}
 
 	http.HandleFunc("/", index)
