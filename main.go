@@ -4,11 +4,13 @@ import (
 	"os"
 	"log"
 	"net/http"
-	"fmt"
+	"html/template"
 )
 
 func index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hello World!")
+	//fmt.Fprint(w, "Hello World!")
+	tmpl := template.Must(template.ParseFiles("templates/index.html"))
+	tmpl.Execute(w, nil)
 }
 
 func main() {
@@ -19,7 +21,7 @@ func main() {
 	}
 
 	server := http.Server{
-		Addr: ":" + port,
+		Addr: ":" + "3001",
 	}
 
 	http.HandleFunc("/", index)
